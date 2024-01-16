@@ -1,0 +1,174 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1460px;
+  margin: 0 auto;
+}
+
+header .logo {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+header .vector {
+  margin-left: 20px;
+  position: relative;
+  top: -5px;
+}
+
+header {
+  display: flex;
+  width: 1460px;
+}
+header .inp {
+  width: 625px;
+  height: 32px;
+  margin-left: 250px;
+  margin-top: 18px;
+  display: flex;
+}
+header .inp input {
+  width: 575px;
+  height: 32px;
+  border: 1px solid gray;
+  background-color: black;
+  padding-left: 15px;
+  color: gray;
+}
+header .inp img {
+  width: 50px;
+  height: 35px;
+  top: -1px;
+  position: relative;
+  left: -2px;
+  border: 0px solid gray;
+}
+header .icon {
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+hr {
+  width: 1240px;
+  margin-left: -1040px;
+  margin-top: 10px;
+  color: rgb(66, 66, 66);
+}
+
+.ulvideo {
+  width: 1240px;
+  height: 750px;
+  gap: 16px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 60px;
+}
+.ulvideo li {
+  margin-left: -10px;
+  width: 280px;
+  height: 240px;
+  color: white;
+}
+
+.box {
+  font-size: 12px;
+  color: white;
+  border: 1px solid darkgray;
+  border-radius: 50px;
+  width: 70px;
+  height: 25px;
+  margin-left: -230px;
+  padding-top: 5px;
+  background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box1 {
+  font-size: 12px;
+  color: white;
+  border: 1px solid darkgray;
+  border-radius: 50px;
+  width: 100px;
+  height: 25px;
+  margin-left: 10px;
+  padding-top: 5px;
+  background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box2 {
+  font-size: 12px;
+  color: white;
+  border: 1px solid darkgray;
+  border-radius: 50px;
+  width: 800px;
+  height: 25px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-left: 10px;
+  background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box3 {
+  font-size: 12px;
+  color: white;
+  border: 1px solid darkgray;
+  border-radius: 50px;
+  width: 150px;
+  height: 25px;
+  margin-left: 10px;
+  padding-top: 5px;
+  background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box4 {
+  font-size: 12px;
+  color: white;
+  border: 1px solid darkgray;
+  border-radius: 50px;
+  width: 250px;
+  height: 25px;
+  margin-left: 10px;
+  padding-top: 5px;
+  background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box, .box1, .box3, .box4 {
+  padding: 10px 20px 20px 20px;
+}
+
+.box, .box1, .box2, .box3, .box4 {
+  margin-top: -18px;
+}
+
+.box4 {
+  width: 500px;
+}
+
+.box:hover, .box1:hover, .box2:hover, .box3:hover, .box4:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(33, 33, 33);
+}
+
+main {
+  width: 1460px;
+  display: flex;
+}
+main .left {
+  width: 240px;
+  height: 844px;
+}
+main .right {
+  width: 1264px;
+  height: 844px;
+}/*# sourceMappingURL=main.css.map */

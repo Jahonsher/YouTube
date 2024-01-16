@@ -1,0 +1,52 @@
+header .logo {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+header .vector {
+    margin-left: 20px;
+    position: relative;
+    top: -5px;
+}
+
+header {
+    display: flex;
+    width: 1460px;
+    .inp {
+        width: 625px;
+        height: 32px;
+        margin-left: 250px;
+        margin-top: 18px;
+        display: flex;
+            input {
+                width: 575px;
+                height: 32px;
+                border: 1px solid gray;
+                background-color: black;
+                padding-left: 15px;
+                color: gray ;
+            }
+            img {
+                width: 50px;
+                height: 35px;
+                top: -1px;
+                position: relative;
+                left: -2px;
+                border: 0px solid gray;
+            }
+
+    }
+    .icon {
+        margin-top: 10px;
+        margin-left: 200px;
+    }
+
+}
+
+hr {
+    width: 1240px;
+    margin-left: -1040px;
+    margin-top: 10px;
+    color: rgba(66, 66, 66, 1);
+}
+

@@ -1,0 +1,86 @@
+.box {
+    font-size: 12px;
+    color: white;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    width: 70px;
+    height: 25px;
+    // padding-left: 6px;
+    margin-left: -230px;
+    padding-top: 5px;
+    background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box1{
+    font-size: 12px;
+    color: white;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+    // padding-left: 7px;
+    margin-left: 10px;
+    padding-top: 5px;
+    background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box2{
+    font-size: 12px;
+    color: white;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    width: 800px;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+
+    margin-left: 10px;
+    background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box3{
+    font-size: 12px;
+    color: white;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    width: 150px;
+    height: 25px;
+    // padding-left: 7px;
+    margin-left: 10px;
+    padding-top: 5px;
+    background-color: rgba(66, 66, 66, 0.56);
+}
+
+.box4{
+    font-size: 12px;
+    color: white;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    width: 250px;
+    height: 25px;
+    // padding-left: 7px;
+    margin-left: 10px;
+    padding-top: 5px;
+    background-color: rgba(66, 66, 66, 0.56);
+}
+
+
+.box , .box1 , .box3 , .box4 {
+   padding: 10px 20px 20px 20px;
+    
+}
+
+.box , .box1 , .box2, .box3 , .box4 {
+    margin-top: -18px;
+}
+
+.box4 {
+    width: 500px;
+}
+
+.box:hover , .box1:hover , .box2:hover, .box3:hover , .box4:hover {
+    background-color: gray;
+    cursor: pointer;
+}

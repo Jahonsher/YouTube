@@ -1,0 +1,16 @@
+main {
+    width: 1460px;
+    display: flex;
+    .left {
+        width: 240px;
+        height: 844px;
+        // img {
+        //     width: 240px;
+        //     height: 160px;
+        // }
+    }
+    .right {
+        width: 1264px;
+        height: 844px;
+    }
+}

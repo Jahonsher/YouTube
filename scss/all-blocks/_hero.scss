@@ -1,0 +1,14 @@
+.ulvideo {
+    width: 1240px;
+    height: 750px;
+    gap: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 60px;
+    li {
+        margin-left: -10px;
+        width: 280px;
+        height: 240px;
+        color: white;
+    }
+}
